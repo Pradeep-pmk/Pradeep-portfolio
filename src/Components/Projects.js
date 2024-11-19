@@ -29,7 +29,7 @@ export default function Projects() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 200); // Delay before content appears
+    }, 200);
     return () => clearTimeout(timer);
   }, []);
 
@@ -49,7 +49,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="w-full">
-        {/* Container for Projects */}
+        
         <div
           className={`flex flex-col md:flex-row px-10 gap-5 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100' : 'opacity-0'

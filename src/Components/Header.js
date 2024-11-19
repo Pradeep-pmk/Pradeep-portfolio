@@ -1,15 +1,16 @@
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
-import { Link } from 'react-scroll'; // Import from 'react-scroll' for smooth scrolling between sections
+import { Link } from 'react-scroll';
+import './Header.css'
 
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [activeLink, setActiveLink] = useState('home');
 
-  // Handle link click for mobile and update active state
+ 
   const handleLinkClick = (link) => {
     setActiveLink(link);
-    setToggleMenu(false); // Close the mobile menu after clicking
+    setToggleMenu(false); 
   };
 
   return (
@@ -17,7 +18,6 @@ export default function Header() {
       <div className="flex justify-between items-center">
         <a className="font-bold text-black text-xl" href="#">Pradeep K</a>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:block">
           <ul className="flex space-x-8 text-white">
             <li>

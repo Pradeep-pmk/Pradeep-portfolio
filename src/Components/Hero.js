@@ -1,6 +1,7 @@
 import HeroImg from '../assets/hero.png';
 import { AiOutlineTwitter, AiOutlineFacebook, AiOutlineLinkedin } from "react-icons/ai";
 import { useEffect, useState } from 'react';
+import './Hero.css'
 
 export default function Hero() {
   const config = {
