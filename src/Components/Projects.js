@@ -21,7 +21,7 @@ export default function Projects() {
       {
         image: websiteImg3,
         description: 'Farming website Using React Project',
-        link: 'https://github.com/jvlcode/blog'
+        link: 'https://farming-wheat.vercel.app/'
       }
     ]
   };
