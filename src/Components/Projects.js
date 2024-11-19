@@ -11,7 +11,7 @@ export default function Projects() {
       {
         image: websiteImg1,
         description: 'A Ecommerce Website. Built with using Javascript.',
-        link: 'https://github.com/Pradeep-pmk/Cake-Shop-Website'
+        link: 'https://cakeshop-website.vercel.app/'
       },
       {
         image: websiteImg2,
